@@ -409,7 +409,7 @@
 	if(active)
 		to_chat(user, "<span class='notice'>You already activated the machine.</span>")
 		return
-	to_chat(user, "<span class='notice'>You link all parts toghether.</span>")
+	to_chat(user, "<span class='notice'>You link all parts together.</span>")
 	active = TRUE
 	update_icon()
 	linked_interface.active = TRUE
